@@ -1,0 +1,10 @@
+frontend:
+  replicaCount: 1
+  image:
+    repository: yannickholzenkamp/tschau-sepp-frontend
+    tag: v1
+  network:
+    http:
+      servicePort: 80
+      ingress:
+        host: yannick-tschau-sepp.apps.okd.baloise.dev
