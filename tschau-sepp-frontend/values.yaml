@@ -5,6 +5,6 @@ frontend:
     tag: v3
   network:
     http:
-      servicePort: 80
+      servicePort: 8080
       ingress:
         host: yannick-tschau-sepp.apps.okd.baloise.dev
