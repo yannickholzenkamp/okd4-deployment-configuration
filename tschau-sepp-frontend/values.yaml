@@ -1,5 +1,5 @@
 frontend:
-  replicaCount: 0
+  replicaCount: 1
   image:
     repository: yannickholzenkamp/tschau-sepp-frontend
     tag: v3
