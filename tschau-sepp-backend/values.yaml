@@ -2,7 +2,7 @@ backend:
   replicaCount: 1
   image:
     repository: yannickholzenkamp/tschau-sepp-backend
-    tag: v2
+    tag: v1
   network:
     http:
       servicePort: 8080
