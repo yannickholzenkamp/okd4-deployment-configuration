@@ -2,7 +2,7 @@ frontend:
   replicaCount: 1
   image:
     repository: yannickholzenkamp/tschau-sepp-frontend
-    tag: v3
+    tag: v4
   network:
     http:
       servicePort: 8080
