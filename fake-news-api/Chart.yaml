@@ -1,0 +1,8 @@
+apiVersion: v2
+name: fake-news-api
+version: 1.0.0
+dependencies:
+  - name: generic-chart
+    version: 2.0.0
+    repository: https://registry.baloise.dev/chartrepo/library
+    alias: fake-news-api

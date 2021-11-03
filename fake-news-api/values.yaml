@@ -1,0 +1,10 @@
+fake-news-api:
+  replicaCount: 1
+  image:
+    repository: yannickholzenkamp/fake-news-api
+    tag: v1
+  network:
+    http:
+      servicePort: 5000
+      ingress:
+        host: codecamp-fake-news-api.apps.okd.baloise.dev
