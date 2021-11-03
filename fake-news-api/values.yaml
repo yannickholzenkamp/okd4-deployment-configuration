@@ -2,7 +2,7 @@ fake-news-api:
   replicaCount: 1
   image:
     repository: yannickholzenkamp/fake-news-api
-    tag: v2
+    tag: v3
   network:
     http:
       servicePort: 5000
